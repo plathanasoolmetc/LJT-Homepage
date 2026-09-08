@@ -4,18 +4,17 @@ site_theme: "default"
 title: "Junteng Liu"
 title_separator: "-"
 name: &name "Junteng Liu"
-description: &description "Academic homepage of Junteng Liu, a Ph.D. candidate working on natural language processing and machine learning."
+description: &description "Academic homepage of Junteng Liu, a Ph.D. candidate whose research focuses on natural language processing and machine learning."
 url: "https://plathanasoolmetc.github.io"
 baseurl: "/LJT-Homepage"
 repository: "plathanasoolmetc/LJT-Homepage"
 
-# Sidebar profile
 author:
   avatar:
   name: "Junteng Liu"
   pronouns:
-  bio: "Ph.D. candidate at the HKUST NLP Group"
-  location: "Hong Kong"
+  bio: "First-year Ph.D. candidate at the HKUST NLP Group"
+  location:
   employer: "Hong Kong University of Science and Technology"
   uri:
   email: "jliugi@connect.ust.hk"
@@ -81,7 +80,6 @@ atom_feed:
   hide: false
   path:
 
-# SEO and social metadata
 twitter:
   username: "junteng88716710"
 social:
@@ -90,7 +88,6 @@ social:
   links:
     - "https://github.com/Vicent0205"
     - "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
-    - "https://x.com/junteng88716710"
 
 analytics:
   provider: false
@@ -215,7 +212,6 @@ sass:
   style: compressed
 
 permalink: /:categories/:title/
-timezone: Asia/Hong_Kong
 
 plugins:
   - jekyll-feed

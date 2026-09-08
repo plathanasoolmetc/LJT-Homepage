@@ -4,13 +4,13 @@ title: "About"
 author_profile: true
 ---
 
-I am **Junteng Liu**, a Ph.D. candidate in Computer Science at the **Hong Kong University of Science and Technology (HKUST)** and a member of the **HKUST NLP Group**, advised by **Prof. Junxian He**. I received my B.Eng. from **Shanghai Jiao Tong University (SJTU)** in June 2024, where I was also advised by Prof. He.
+I am **Junteng Liu**, a first-year Ph.D. candidate in Computer Science at the **Hong Kong University of Science and Technology (HKUST)** and a member of the **HKUST NLP Group**, advised by **Prof. Junxian He**. I graduated from **Shanghai Jiao Tong University (SJTU)** in June 2024, where I was also advised by Prof. He.
 
-My research lies at the intersection of **natural language processing** and **machine learning**. I am particularly interested in:
+My research focuses on **natural language processing** and **machine learning**. My research interests include:
 
-- LLM reasoning and reinforcement learning;
-- hallucination in vision-language models;
-- LLM truthfulness and interpretability.
+- LLM reasoning and reinforcement learning
+- Hallucination in vision-language models
+- LLM truthfulness and interpretability
 
 ## Education
 
@@ -20,23 +20,17 @@ My research lies at the intersection of **natural language processing** and **ma
 ## Research Experience
 
 - **Research Intern, MINIMAX**, February 2025–present
-- **Research Intern, Tencent WXG**, June 2024–September 2024  
-  Advised by Zifei Shan.
-- **Research Intern, Shanghai AI Lab**, June 2023–December 2023  
-  Advised by Prof. Yu Cheng.
+- **Research Intern, Tencent WXG**, June 2024–September 2024; advised by Zifei Shan
+- **Research Intern, Shanghai AI Lab**, June 2023–December 2023; advised by Prof. Yu Cheng
 
 ## Publications
 
-My publications are recorded here as well as on the dedicated [Publications page]({{ '/publications/' | relative_url }}). My name is shown in **bold**.
-
-{% assign about_publications = site.publications | sort: "date" | reverse %}
-{% for post in about_publications %}
-  {% include archive-single.html %}
-{% endfor %}
-
-## Research Skills
-
-My work covers foundation-model evaluation, verifiable reasoning-data synthesis, representation analysis, hallucination mitigation, chart understanding, and research on reasoning, truthfulness, and interpretability in large models.
+1. **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, and Junxian He. “SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond.” arXiv, 2025. First author.
+2. **Junteng Liu**, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, and Junxian He. “On the Perception Bottleneck of VLMs for Chart Understanding.” arXiv, 2025. First author.
+3. **Junteng Liu**, Shiqi Chen, Yu Cheng, and Junxian He. “On the Universal Truthfulness Hyperplane Inside LLMs.” EMNLP 2024. First author.
+4. Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, and Junxian He. “In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation.” ICML 2024.
+5. Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, **Junteng Liu**, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, and Junxian He. “C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models.” NeurIPS 2023.
+6. Jinghan Zhang, Shiqi Chen, **Junteng Liu**, and Junxian He. “Composing Parameter-Efficient Modules with Arithmetic Operations.” NeurIPS 2023.
 
 ## Honors
 
@@ -47,4 +41,4 @@ My work covers foundation-model evaluation, verifiable reasoning-data synthesis,
 - Email: [jliugi@connect.ust.hk](mailto:jliugi@connect.ust.hk)
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate)
 - [GitHub](https://github.com/Vicent0205)
-- [X / Twitter](https://x.com/junteng88716710)
+- X / Twitter: @junteng88716710
