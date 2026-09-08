@@ -1,13 +1,10 @@
 ---
-permalink: /
-title: "Junteng Liu"
+permalink: /about/
+title: "About"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
-I am a Ph.D. candidate in Computer Science at the **Hong Kong University of Science and Technology (HKUST)** and a member of the **HKUST NLP Group**, advised by **Prof. Junxian He**. I received my B.Eng. from **Shanghai Jiao Tong University (SJTU)** in June 2024, where I was also advised by Prof. He.
+I am **Junteng Liu**, a Ph.D. candidate in Computer Science at the **Hong Kong University of Science and Technology (HKUST)** and a member of the **HKUST NLP Group**, advised by **Prof. Junxian He**. I received my B.Eng. from **Shanghai Jiao Tong University (SJTU)** in June 2024, where I was also advised by Prof. He.
 
 My research lies at the intersection of **natural language processing** and **machine learning**. I am particularly interested in:
 
@@ -30,10 +27,10 @@ My research lies at the intersection of **natural language processing** and **ma
 
 ## Publications
 
-The complete publication collection is mirrored here from the [Publications page]({{ '/publications/' | relative_url }}). My name is shown in **bold**.
+My publications are recorded here as well as on the dedicated [Publications page]({{ '/publications/' | relative_url }}). My name is shown in **bold**.
 
-{% assign homepage_publications = site.publications | sort: "date" | reverse %}
-{% for post in homepage_publications %}
+{% assign about_publications = site.publications | sort: "date" | reverse %}
+{% for post in about_publications %}
   {% include archive-single.html %}
 {% endfor %}
 
